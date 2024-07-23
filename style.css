@@ -1,0 +1,151 @@
+* {
+  text-align: center;
+  align-items: center;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: image("C:\Users\Admin\OneDrive\Desktop\shajhanand internship\img\7a45cc4d-40c7-401f-9503-33bcd01d450d.jfif");
+}
+
+body {
+  background-image: url("flower\ design\ 4.jpg");
+  background-color: #f3e7c9;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.main-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 500px;
+  overflow: hidden;
+  display: inline-block; 
+  margin-top: 30px;
+}
+
+.email {
+  text-align: center;
+  margin-left: 50px;
+  
+}
+
+input {
+  width: 700px;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  margin-top: 50px;
+  text-align: left;
+  font-size: 20px;
+}
+
+
+button {
+  position: relative;
+  font-family: sans-serif;
+  border: none;
+  background-color: black;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  right: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+p {
+  color: #424242;
+  line-height: 70px;
+  font-size: 20px;
+  font-family:  monospace;
+}
+
+button:hover {
+  cursor: pointer;
+ 
+  border: 1px solid #000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button:active {
+  background-color: #000;
+  color: #fff;
+  transition: background 1s;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  
+  button {
+    position: relative;
+    font-family: sans-serif;
+    border: none;
+    background-color: black;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+  }
+  input {
+    width: 250px;
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 15px;
+  }
+  .email {
+    margin-left: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  
+  button {
+    position: relative;
+    font-family: sans-serif;
+    border: none;
+    background-color: black;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+
+  }
+  input {
+    width: 200px;
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    margin-top: 50px;
+    text-align: left;
+  }
+}
